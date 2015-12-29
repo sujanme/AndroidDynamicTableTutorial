@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.officeemployee.MainActivity" >
+
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="showMarketingPipelineData"
+        android:text="Show Information" />
+    
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+        <TableLayout
+	    android:id="@+id/displayLinear"
+    	android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:shrinkColumns="*"
+    	android:stretchColumns="*"
+	    android:orientation="vertical" >
+
+         
+       </TableLayout>
+        
+    </ScrollView>
+    
+    
+         
+</LinearLayout>
